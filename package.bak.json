@@ -5,9 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm-run-all --parallel nodemon sass",
-    "nodemon": "nodemon app.js",
-    "sass": "sass --watch sass/app.scss public/css/app.css"
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
   },
   "author": "Maximilian Schwarzmüller",
   "license": "ISC",
